@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>About Me - Lucero</title>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<h1>Regular Degular Schmegular Girl in NYC</h1> 
+		<!-- A Comment is text that doesn't effect the code. Good for notes/information. -->
+
+		<div class="Nav">
+
+			<ul>
+				<li><a href="Nav-li">Neighborhoods Picks!</a></li>
+				<li><a href="Nav-li">Favorite Grocery Stores</a></li>
+				<li><a href="Nav-li">Top Places to Eat!</a></li>
+				<li><a href="Nav-li">My Other Favorite Cities</a></li>
+				<li><a href="Nav-li">Green Scene Community</a></li>
+			</ul>
+		</div>
+
+		<div class="Nav-Mobile">
+			<img onclick= toggleHamburger(){src="https://img.icons8.com/material-outlined/96/000000/menu--v1.png"/>
+			<div id="hidden-menu" class="Nav-Mobile-Items">
+				<ul>
+					<li>Neighborhoods Picks!</li>
+					<li>Favorite Grocery Stores</li>
+					<li>Top Places to Eat!</li>
+					<li>My Other Favorite Cities</li>
+					<li>Green Scene Community</li>
+				</ul>
+			</div>	
+		</div>
+		<br>
+		<br>
+		<div class="Intro">
+			<h3>Welcome!</h3>
+
+			<p class="Landing">
+			Thanks for dropping by! Here's a little about me:
+			My name is Lucero & I'm from the Bronx, born & raised. Here's some of what I love about my city & a little bit here and there of what I love beyond our five boroughs</p>
+			<img src="Chrysler.jpg">
+			<img src="fruitstand.jpeg">
+			<img src="Empire.jpg">
+		</div>
+		<br>
+		<br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md">
+				<div class="Neighborhoods">
+					<h2>Neighborhoods Picks!</h2>
+					<p>	Harlem <br>
+						East Harlem <br>
+						LES (Lower East Side) <br>
+						Chinatown <br>
+						Little Italy (the real one in the Bronx!)
+					</p>
+				</div>
+			</div>
+
+		<div class="col-md">
+			<div class="Grocery">
+				<h2>Favorite Grocery Stores</h2>
+				<h3>Cosenza's Fish Market</h3>
+				<img src="cosenzas.jpg"> <br>
+				<br>
+				<p> This place is my favorite market to shop for fresh seafood and eat raw oysters outside. I come here every week to treat myself.</p>
+			</div>
+		</div>
+			<br>
+		<div class="col-md">
+			<div class="Cities">
+				<h2>My Other Favorite Cities</h2>
+					<h3> Philly</h3>
+					<img src="philly.jpg"> <br>
+					<br>
+					<em>Philadelphia's Magic Gardens</em> <br>
+					<p>This immersive mixed media art walk covered in mosaics made of handmade tiles, bottles, bicycle wheels, and mirrors collaborated upon created by Isaiah Zagar. He draws upon folk art around the world to tell the story of his life.</p>
+			</div>
+		</div>
+			<br>
+			<br>
+		<div class="col-md">
+			<div class="Green">
+				<h2>Green Scene Community</h2>
+
+				<h3>Union Square Green Market</h3>
+				<img src="greenmarket.jpg"> <br>
+				<br>
+				<p> Located in: North and West sides of Union Square Park
+					<br>Address: Union Square W &, E 17th St, New York, 10003
+					<br>
+					Hours: Mondays, Wednesdays, Fridays, & Saturdays: 8am-6pm <br>
+					Phone: (212) 788-7900</p>
+			</div>
+		</div>
+	</div>
+			<br>
+
+		<footer>
+		<div class="Social">
+			<a href="https://www.instagram.com/beinglucyj/">Instagram</a>
+			<a href="https://www.instagram.com/blacklettuce.co/">BlackLettuce.Co Grow Space</a>
+			<a href="https://www.linkedin.com/in/lucerocjorge/">LinkedIn</a>
+			<a href="contact.html">Contact</a>
+		</footer>
+
+		</div>
+
+		<script type="text/javascript">
+			function toggleHamburger(){
+				var menu = document.getElementbyId("hidden-menu")
+				if (menu.style.display == "none"){
+					menu.style.display = "block"
+				}else{
+					menu.style.display + "none"
+				}
+			}
+
+			function changeColor(el){
+				el.style.color = "gold"
+			}
+		</script>
+
+	</body>
+</html>
