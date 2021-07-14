@@ -1,0 +1,109 @@
+body {
+	background-color: #5C6D70;
+	color: whitesmoke;
+	margin: 0;
+	padding: 0;
+
+}
+.Nav{
+	background-color: #E0AC9D;
+	display: flex;
+	list-style: none;
+	width:  100%;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+} 
+
+li {
+	list-style: None;
+	display: inline-block;
+	margin-right: 70px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+img {
+ 	width: 30%;
+  	min-width:  200px;
+}
+
+div {
+	width: 80%;
+	margin:  0 auto;
+	text-align: center;
+
+}
+.Intro {
+	font-style: italic;
+}
+.Landing{
+	color: whitesmoke;
+}
+.row {
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	justify-content: center;
+	font-size: 15px;
+}
+.Neighborhoods {
+	font-size: 20px;
+}
+.Grocery {
+	font-size: 20px;
+}
+.Eats {
+	font-size: 20px;
+}
+.Cities {
+	font-size: 20px;
+}
+.Green {
+	font-size: 20px;
+}
+.Nav-li{
+	display: inline-block;
+
+}
+h1.Nav{
+	margin-left: 40px;
+}
+.Nav-Mobile {
+	display: none;
+}
+.Nav-Mobile-Items{
+	display: none;
+}
+img.Nav-Mobile {
+	margin: 0 auto;
+}
+li.Nav-Mobile-Items{
+	display: initial;
+}
+@media screen and (max-width: 480px)
+{
+	.Nav{
+		display: none;
+	}
+	.Nav-Mobile {
+		display: block;
+		text-align: center;
+	}
+}
+.bottom-nav {
+  background-color: whitesmoke;
+  justify-content: space-between;
+}
